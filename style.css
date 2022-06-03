@@ -1,0 +1,85 @@
+*{margin: 0;
+  padding: 0;}
+
+.hide{
+    display: none;
+}
+.car,.enemy{
+    width: 50px;
+    height: 70px;
+    background: red;
+    position: absolute;
+    left: 50px;
+    bottom: 300px; 
+    z-index: 1;
+    box-shadow: 2px 2px 2px whitesmoke;
+}
+
+
+.gamearea{
+    width: 400px;
+    height: 100vh;
+    background-color:#080e2c;
+    margin: auto;
+    /* The above line will bring the road to the center */
+    position: relative;
+    /* The above line will ensure that the car is within the road  */
+}
+.road{
+    width: 400px;
+    height: 100vh;
+    background-color:#080e2c;
+    margin: auto;
+    position: relative;
+    border-right: 5px dashed white;
+    border-left: 5px dashed white;
+}
+.score{
+    width: 120px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: #E56B6F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+    position: fixed;
+    z-index: 10;
+    font-weight: bold;
+    box-shadow: 0 5px 5px #777;
+    margin-top: 10px;
+}
+.img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    
+}
+.lines{
+    width: 10px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 195px;
+}
+.startscreen{
+    height: 10vh;
+    width: 20vw;
+    background-color: #EE5253;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+    border-radius: 1rem;
+    position: absolute;
+    left:38.5%;
+    top:50%;
+    z-index: 1000;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 0 5px 5px #777;
+    cursor: pointer;
+    letter-spacing: 5;
+    word-spacing: 2;
+}
